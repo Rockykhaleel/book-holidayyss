@@ -38,7 +38,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="/about.html"
+          href="about"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
           About Us
