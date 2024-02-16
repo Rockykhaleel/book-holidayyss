@@ -14,7 +14,7 @@ const FeaturedTrip = () => {
           <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
             <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
               <img
-                src="https://images.unsplash.com/photo-1580294647332-8a399cd9ed45?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://images.unsplash.com/photo-1659126574791-13313aa424bd?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="card-image"
                 className="h-full w-full"
               />
@@ -89,6 +89,124 @@ const FeaturedTrip = () => {
             </div>
             <div className="p-6 pt-0">
               <a href="packages3">
+                <button
+                  className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-cyan-400 text-white shadow-md shadow-cyan-900/10 hover:shadow-lg hover:shadow-cyan-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                  type="button"
+                >
+                  Explore More
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+            <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+              <img
+                src="https://images.unsplash.com/photo-1572238916064-69673fdc419f?q=80&w=1876&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="card-image"
+                className="h-full w-full"
+              />
+            </div>
+            <div className="p-6">
+              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                Bangalore, Coorg, ooty and Mysore
+              </h5>
+              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                Bangalore, a tech hub. Coorg, coffee paradise. Ooty, queen of
+                hills. Mysore, city of palaces. All unique, offering diverse
+                experiences in South India.
+              </p>
+            </div>
+            <div className="p-6 pt-0">
+              <a href="Packages5">
+                <button
+                  className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-cyan-400 text-white shadow-md shadow-cyan-900/10 hover:shadow-lg hover:shadow-cyan-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                  type="button"
+                >
+                  Explore More
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row justify-around my-10">
+          <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+            <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+              <img
+                src="https://www.tourmyindia.com/images/sharif-ajmer3.jpg"
+                alt="card-image"
+                className="h-full w-full"
+              />
+            </div>
+            <div className="p-6">
+              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                Ajmer sharif Tour
+              </h5>
+              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                Ajmer Sharif, a spiritual hub in Rajastan, is known for its
+                Hazrat Khwaja Garib Nawaz. It attracts devotees seeking
+                blessings and peace from across India.
+              </p>
+            </div>
+            <div className="p-6 pt-0">
+              <a href="packages6">
+                <button
+                  className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-cyan-400 text-white shadow-md shadow-cyan-900/10 hover:shadow-lg hover:shadow-cyan-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                  type="button"
+                >
+                  Explore More
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+            <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+              <img
+                src="https://i.pinimg.com/564x/8a/b5/13/8ab513a475142f923d7abef7f4ceda60.jpg"
+                alt="card-image"
+                className="h-full w-full"
+              />
+            </div>
+            <div className="p-6">
+              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                Khwaja Bande Nawaz Tour
+              </h5>
+              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                Khwaja Bande Nawaz, a spiritual hub in Gulbarga, is known for
+                its Hazrat Khwaja Bande Nawaz. It attracts devotees seeking
+                blessings and peace from across India.
+              </p>
+            </div>
+            <div className="p-6 pt-0">
+              <a href="packages7">
+                <button
+                  className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-cyan-400 text-white shadow-md shadow-cyan-900/10 hover:shadow-lg hover:shadow-cyan-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                  type="button"
+                >
+                  Explore More
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+            <div className="relative h-56 mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+              <img
+                src="https://i.pinimg.com/564x/6f/4c/60/6f4c6022466c4403e7028f86fc71d21a.jpg"
+                alt="card-image"
+                className="h-full w-full"
+              />
+            </div>
+            <div className="p-6">
+              <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                Nizamuddin Aulia Tour
+              </h5>
+              <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                Nizamuddin Aulia, a spiritual hub in Delhi, is known for its
+                Nizamuddin Aulia. It attracts devotees seeking blessings and
+                peace from across India.
+              </p>
+            </div>
+            <div className="p-6 pt-0">
+              <a href="packages8">
                 <button
                   className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-cyan-400 text-white shadow-md shadow-cyan-900/10 hover:shadow-lg hover:shadow-cyan-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
                   type="button"

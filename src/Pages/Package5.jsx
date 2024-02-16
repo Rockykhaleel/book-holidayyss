@@ -102,14 +102,13 @@ const TABLE_ROWS1 = [
   },
 ];
 
-const Packages3 = () => {
+const Package5 = () => {
   const [open, setOpen] = React.useState(0);
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
   return (
     <div>
       <BreadcrumbsDefault5 />
-
       <Card className="w-full flex-row my-10">
         <CardHeader
           shadow={false}
@@ -117,25 +116,29 @@ const Packages3 = () => {
           className="m-0 w-2/5 shrink-0 rounded-r-none"
         >
           <img
-            src="https://images.unsplash.com/photo-1622004468207-4f8b21600c20?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://images.unsplash.com/photo-1650612157176-b9e3b50c24b6?q=80&w=1826&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="card-image"
             className="h-full w-full object-cover"
           />
         </CardHeader>
         <CardBody>
           <Typography variant="h6" color="gray" className="mb-4 uppercase">
-            Package-3
+            Package-5
           </Typography>
           <Typography variant="h4" color="blue-gray" className="mb-2">
-            Explore Coorg
+            Bangalore, Coorg, ooty and Mysore
           </Typography>
           <Typography color="gray" className="mb-8 font-normal">
-            Come for your honeymoon, anniversary, family vacation, trekking,
-            rafting, soft adventure or just to rejuvenate yourself! We will make
-            sure that you come again and again to this heaven on earth !!! Our
-            tour guides and chauffeurs are experts in their respective fields
-            and will lead you to places & people that you will cherish for many
-            a year to come….!
+            Nature's beautiful trinity in South India! A journey that combines
+            the heavenly hill stations of Ooty Coorg with the cultural yet
+            contemporary vibe of Mysore city. Watch stunning landscapes unfold
+            at the Nilgiri ranges and experience grandeur & opulence at the
+            cultural capital of Karnataka, Mysore. Come for your honeymoon,
+            anniversary, family vacation, trekking, rafting, soft adventure or
+            just to rejuvenate yourself! We will make sure that you come again
+            and again to this heaven on earth !!! Our tour guides and chauffeurs
+            are experts in their respective fields and will lead you to places &
+            people that you will cherish for many a year to come….!
           </Typography>
           <Typography color="gray" className="mb-8 font-normal">
             Adventure seekers and travellers looking for new destination vistas
@@ -503,4 +506,4 @@ const Packages3 = () => {
   );
 };
 
-export default Packages3;
+export default Package5;
