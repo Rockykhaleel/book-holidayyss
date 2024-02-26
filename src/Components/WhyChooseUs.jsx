@@ -10,8 +10,8 @@ const WhyChooseUs = () => {
               WHY CHOOSE US
             </h5>
             <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-              We the Go Holidays are the Leading Domestic and International tour
-              operator and organizers. We book your Train Tickets, Flight
+              We the Book Holidays are the Leading Domestic and International
+              tour operator and organizers. We book your Train Tickets, Flight
               Tickets(Domestic & International), Bus Tickets, NON-AC and Ac
               SLEEPER & Semi-Sleeper, Volvo Multi Axle and Travel Cabs enabling
               your journey easier and comfortable.

@@ -34,7 +34,7 @@ export function CarouselWithContent() {
               color="white"
               className="mb-4 text-3xl md:text-4xl lg:text-5xl"
             >
-              The Beauty of Nature
+              Mysore The Heritage City
             </Typography>
             <div className="flex justify-center gap-2">
               <a href="packages">
@@ -64,7 +64,7 @@ export function CarouselWithContent() {
               color="white"
               className="mb-4 text-3xl md:text-4xl lg:text-5xl"
             >
-              The Beauty of Nature
+              The Beauty Of Coorg
             </Typography>
             <div className="flex justify-center gap-2">
               <a href="packages">
@@ -83,7 +83,7 @@ export function CarouselWithContent() {
       </div>
       <div className="relative h-96 w-full">
         <img
-          src="https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="https://images.unsplash.com/photo-1590765759804-0b2b579820b3?q=80&w=1830&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="image 3"
           className="h-96 w-full object-cover"
         />
@@ -94,7 +94,7 @@ export function CarouselWithContent() {
               color="white"
               className="mb-4 text-3xl md:text-4xl lg:text-5xl"
             >
-              The Beauty of Nature
+              Ooty The Heaven On Earth
             </Typography>
             <div className="flex justify-center gap-2">
               <a href="packages">

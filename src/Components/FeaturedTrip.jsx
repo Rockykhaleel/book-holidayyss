@@ -6,9 +6,10 @@ const FeaturedTrip = () => {
           OUR FEATURED TRIPS
         </h5>
         <p className="text-center">
-          Capitalise on low hanging fruit to identify a ballpark value added
-          activity to beta test. <br /> Override the digital divide with
-          additional clickthroughs from DevOps.
+          Explore the world with our curated selection of amazing destinations,
+          from the South India to North India. <br /> Whether you are looking
+          for adventure, culture, or relaxation, we have the perfect trip for
+          you.
         </p>
         <div className="flex flex-col md:flex-row justify-around my-10">
           <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
@@ -168,7 +169,7 @@ const FeaturedTrip = () => {
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                Khwaja Bande Nawaz Tour
+                North Karnataka ziyarat tour
               </h5>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 Khwaja Bande Nawaz, a spiritual hub in Gulbarga, is known for
@@ -197,7 +198,7 @@ const FeaturedTrip = () => {
             </div>
             <div className="p-6">
               <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                Nizamuddin Aulia Tour
+                Delhi, Agra Nizamuddin Auliya Trip
               </h5>
               <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
                 Nizamuddin Aulia, a spiritual hub in Delhi, is known for its

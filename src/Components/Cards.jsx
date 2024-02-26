@@ -16,7 +16,29 @@ import taxi from "../assets/taxi.png";
 import travel from "../assets/travel-luggage.png";
 
 const Cards = () => {
+  // const url = "";
+
   const [open, setOpen] = React.useState(false);
+  // const [name,setName] = React.useState("");
+  // const [email,setEmail] = React.useState("");
+
+  // const sendMail = async () =>{
+  //   let dataSend = {
+  //     email : email , name: name, subject:"some subject",message:"some message"
+  //   }
+  //   const res = await fetch(`${url}/sendmail`,{
+  //     method:"POST",
+  //     body:JSON.stringify(dataSend),
+  //     headers:{
+  //     Accept:"application/json",
+  //     "Content-Type": "Application/json"
+  //   }
+  // }).then((res)=>{
+  //   console.log(res)
+  //   if(res.status>199 && res.status<300){
+  //   alert('Your request has been sent successfully');
+  //   }
+  // })
 
   const handleOpen = () => setOpen(!open);
   return (
@@ -29,9 +51,11 @@ const Cards = () => {
           <div className="flex flex-row gap-14 mb-3">
             <div className="w-2/5">
               <Input label="Name" />
+              {/* onChange={(e)=>setName(e.target.value)} */}
             </div>
             <div className="w-2/5">
-              <Input label="Email Address" />
+              <Input label="Email Address" type="email" />
+              {/* onChange={(e)=>setEmail(e.target.value)} */}
             </div>
           </div>
           <div className="flex flex-row gap-14 mb-3">
